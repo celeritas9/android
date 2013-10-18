@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+<fragment
+	android:id="@+id/fragment_a"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"/>
+	<!-- The below fragment was part of this xml. Removing this from here and adding this fragment dynamically. -->
+	<!-- class="com.example.fragments.FragmentA" -->
+</LinearLayout>
