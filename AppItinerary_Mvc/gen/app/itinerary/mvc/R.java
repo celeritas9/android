@@ -49,6 +49,8 @@ public final class R {
         public static final int depTime=0x7f040009;
         public static final int departureDate=0x7f040004;
         public static final int from=0x7f040002;
+        /**  The View that populates values in the fields in main.xml 
+         */
         public static final int hello=0x7f040000;
         public static final int noOfPassengers=0x7f040006;
         public static final int retTime=0x7f04000a;
