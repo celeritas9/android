@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- The View that populates values in the fields in main.xml -->
+    <string name="hello">Hello World, AppItineraryMvcActivity!</string>
+    <string name="app_name">AppItinerary_Mvc</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="departureDate">Departure Date:</string>
+    <string name="returnDate">Return Date:</string>
+    <string name="noOfPassengers">No. of passengers:</string>
+    <string name="submit">Submit</string>
+    <string name="clear">Clear</string>
+    <string-array name="number_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string name="depTime">Time of departure</string>
+    <string name="retTime">Time of return</string>
+	<string-array name="time_array">
+	    <item>any time</item>
+	    <item>morning</item>
+	    <item>noon</item>
+	    <item>evening</item>
+	    <item>late night</item>
+	</string-array>
+</resources>
