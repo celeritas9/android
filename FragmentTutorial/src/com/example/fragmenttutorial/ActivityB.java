@@ -14,8 +14,7 @@ public class ActivityB extends FragmentActivity {
 		Bundle extras = getIntent().getExtras();
 		if (extras != null) {
 			String s = extras.getString("author");
-			TextView view = (TextView)
-			findViewById(R.id.textViewAuthor);
+			TextView view = (TextView)findViewById(R.id.textViewAuthor);
 			view.setText(s);
 		}
 	}

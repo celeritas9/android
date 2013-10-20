@@ -12,7 +12,10 @@ public class ActivityA extends FragmentActivity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_a);
+		
+		//Inflate this layout. If I try to inflate the layout activity_a, it will throw an IllegalArgumentException as 
+		//it fails to find the id for layout layout_activity_a in the addFragment() below.
+		setContentView(R.layout.layout_activity_a);
 		
 		addFragment();
 	}
@@ -20,7 +23,10 @@ public class ActivityA extends FragmentActivity {
 	private void addFragment() {
 		FragmentManager man = getSupportFragmentManager();
 		FragmentTransaction trans = man.beginTransaction();
-		trans.add(R.layout.activity_a, new FragmentA());
+		
+		//Add the fragment given by FragmentA into the layout by layout_activity_a.
+		trans.add(R.id.layout_activity_a, new FragmentA());
+		//Save the changes.
 		trans.commit();
 	}
 }
